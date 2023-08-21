@@ -21,6 +21,8 @@ export const FriendStatus = styled.span`
                 return 'green';
             case false:
                 return 'red';
+            default:
+                return 'null';
         }
     }};
 `;
