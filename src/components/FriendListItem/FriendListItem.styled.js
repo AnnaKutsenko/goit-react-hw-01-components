@@ -16,7 +16,7 @@ export const FriendStatus = styled.span`
     height: 20px;
     border-radius: 50%;
     background-color: ${props => {
-        switch (props.$status) {
+        switch (props.status) {
             case true:
                 return 'green';
             case false:
