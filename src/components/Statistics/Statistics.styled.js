@@ -26,6 +26,7 @@ export const StatList = styled.ul`
   padding: 10px;
   margin: 0 auto;
   background-color: aqua;
+  border-radius: 10px;
 `;
 
 export const StatItem = styled.li`
